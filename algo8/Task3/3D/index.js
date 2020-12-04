@@ -2,8 +2,8 @@ const express = require('express');
 const path = require('path');
 var csv = require('csv-express');
 const port = 8001;
-const db=require('./config/mongoose');
-const Contact=require('./models/student');
+const mongoose=require('./config/mongoose');
+const student=require('./models/student');
 
 
 const app = express();
